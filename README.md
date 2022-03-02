@@ -10,26 +10,26 @@ The school's principal wants to know if test preparation courses are helpful. Sh
 # 💾 The data
 The file has the following fields (source):
 
-    "gender" - male / female
-    "race/ethnicity" - one of 5 combinations of race/ethnicity
-    "parent_education_level" - highest education level of either parent
-    "lunch" - whether the student receives free/reduced or standard lunch
-    "test_prep_course" - whether the student took the test preparation course
-    "math" - exam score in math
-    "reading" - exam score in reading
-    "writing" - exam score in writing
+    - "gender" - male / female
+    - "race/ethnicity" - one of 5 combinations of race/ethnicity
+    - "parent_education_level" - highest education level of either parent
+    - "lunch" - whether the student receives free/reduced or standard lunch
+    - "test_prep_course" - whether the student took the test preparation course
+    - "math" - exam score in math
+    - "reading" - exam score in reading
+    - "writing" - exam score in writing
 
 
 # 💪 Challenge
 
 Create a report to answer the principal's questions. Include:
 
-    - What are the average reading scores for students with/without the test preparation course?
-    What are the average scores for the different parental education levels?
-    Create plots to visualize findings for questions 1 and 2.
-    [Optional] Look at the effects within subgroups. Compare the average scores for students with/without the test preparation course for different parental education levels (e.g., faceted plots).
-    [Optional 2] The principal wants to know if kids who perform well on one subject also score well on the others. Look at the correlations between scores.
-    Summarize your findings.
+    1. What are the average reading scores for students with/without the test preparation course?
+    2. What are the average scores for the different parental education levels?
+    3. Create plots to visualize findings for questions 1 and 2.
+    4. [Optional] Look at the effects within subgroups. Compare the average scores for students with/without the test preparation course for different parental education levels (e.g., faceted plots).
+    5. [Optional 2] The principal wants to know if kids who perform well on one subject also score well on the others. Look at the correlations between scores.
+    6. Summarize your findings.
     
 # Depemdences 
   - PYTHON
